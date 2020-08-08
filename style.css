@@ -59,13 +59,56 @@ body {
   font-size: 0.9rem;
   color: #9eafc2;
 }
-.container__text .container__share {
-  width: 40px;
-  height: 40px;
+.container__text .container__icon {
+  width: 30px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #ecf2f8;
+  border-radius: 50%;
+}
+.container .container__share {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  height: 71px;
+  padding: 0 26px;
+  margin: 0 -24px -15px;
+  background-color: #48556a;
+}
+.container .container__share p {
+  text-transform: uppercase;
+  color: #9eafc2;
+  letter-spacing: 0.2rem;
+}
+.container .container__share .social_media {
+  margin-left: -20px;
+}
+.container .container__share .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.container .container__share .icon.facebook {
+  background-image: url("./images/icon-facebook.svg");
+}
+.container .container__share .icon.twitter {
+  background-image: url("./images/icon-twitter.svg");
+}
+.container .container__share .icon.pinterest {
+  background-image: url("./images/icon-pinterest.svg");
+}
+.container .container__share .container__icon-dark {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9eafc2;
   border-radius: 50%;
 }
 
